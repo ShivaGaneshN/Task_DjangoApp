@@ -1,0 +1,86 @@
+/*COMMON*/
+html,body{
+    height: 100%;
+}
+
+.content{
+    max-width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+/* TASK */
+
+.task_form{
+    padding: 20px 40px;
+    border-bottom: 1px solid #ccc;
+}
+
+.task_form input {
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.task_form textarea {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.tasks ul{
+    padding: 0;
+}
+
+.tasks li{
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 40px;
+    list-style: none;
+}
+
+.tasks li .menu_icon{
+    width: 20px;
+    position: absolute;
+    right: 30px;
+    top: 18px;
+}
+
+.tasks li .menu{
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    border: 1px solid #ccc;
+    background-color: #ffff;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 3px;
+}
+.tasks li .menu a {
+    text-decoration: none;
+}
+
+.tasks li .logo{
+    flex-basis: 15%;
+}
+
+.tasks li .logo img{
+    width: 50%;
+}
+
+.tasks li .name_body{
+    flex-basis: 85%;
+}
+
+.tasks li .name_body .name {
+    font-weight: bold;
+}
+
+.tasks li .name_body .datetime{
+    color: lightslategray;
+}
